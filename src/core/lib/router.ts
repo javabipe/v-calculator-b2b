@@ -13,6 +13,10 @@ export default new Router({
             redirect: { name: 'calculator' },
         },
         {
+            path: '/robos',
+            redirect: { name: 'robos' },
+        },
+        {
             path: '/auth',
             component: () => import('@/modules/auth/auth-view.vue'),
             children: [
