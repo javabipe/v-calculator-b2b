@@ -17,7 +17,7 @@
 
 <script>
 import { defineComponent, reactive } from "vue";
-import TableLite from "./components/TableLite.vue";
+import TableLite from "vue3-table-lite/ts";
 
 // Fake Data for 'asc' sortable
 const sampleData1 = (offst, limit) => {
