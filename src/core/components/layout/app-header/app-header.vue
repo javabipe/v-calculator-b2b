@@ -63,7 +63,7 @@
                 {
                     to: '/calculator',
                     title: 'Disparo',
-                    icon: 'commenting-o'
+                    icon: 'comment'
                 },
                 {
                     to: '/settings',
