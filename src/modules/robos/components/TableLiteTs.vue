@@ -340,7 +340,7 @@ import {
   onBeforeUpdate,
   nextTick,
   onMounted,
-} from "vue";
+} from "@vue/composition-api";
 
 interface pageOption {
   value: number;
