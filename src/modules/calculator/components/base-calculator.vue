@@ -63,7 +63,7 @@
         <div class="base-calculator__summary">
             <cash-result
                 :value="result"
-                label="Wypłata"
+                label="Previsão de custo"
                 icon="hand-holding-usd"
                 theme="primary-gradient"
             />
