@@ -14,7 +14,7 @@ export default new Router({
         },
         {
             path: '/robos',
-            component: () => import('@/modules/auth/auth-view.vue'),
+            component: () => import('@/modules/robos/robos-view.vue'),
             children: [
                 {
                     path: '',
