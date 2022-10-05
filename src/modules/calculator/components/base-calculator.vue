@@ -78,7 +78,7 @@
                 :value="grossIncome"
                 class="mt-30"
                 theme="success"
-                label="Kwota brutto"
+                label="Pessoas alcançadas"
             />
             <cash-result
                 :value="vatCost"
