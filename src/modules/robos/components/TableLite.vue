@@ -339,7 +339,7 @@ import {
   onBeforeUpdate,
   nextTick,
   onMounted,
-} from "vue";
+} from "@vue/composition-api";
 
 export default defineComponent({
   name: "my-table",
