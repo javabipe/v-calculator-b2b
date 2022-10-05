@@ -13,7 +13,7 @@
                     {{ expense.name }}
                 </span>
                 <span class="calculator-expenses-list__value">
-                    {{ expense.grossValue | currency }} PLN
+                    {{ expense.grossValue | currency }} R$
                 </span>
             </button>
         </li>
