@@ -21,6 +21,7 @@
     "vue-awesome": "^4.0.2",
     "vue-router": "^3.0.3",
     "vue-toastification": "^0.9.0",
+    "vue3-table-lite": "latest",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
@@ -58,6 +59,7 @@
     "typescript-eslint-parser": "^22.0.0",
     "vue-cli-plugin-style-resources-loader": "^0.1.3",
     "vue-template-compiler": "^2.6.10",
+    "vue3-table-lite": "latest",
     "vuex-module-decorators": "^0.16.1"
   },
   "gitHooks": {
