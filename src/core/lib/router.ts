@@ -14,7 +14,23 @@ export default new Router({
         },
         {
             path: '/robos',
-            redirect: { name: 'robos' },
+            component: () => import('@/modules/auth/auth-view.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'auth.login',
+                    component: () =>
+                        import('@/modules/auth/components/auth-login-form.vue'),
+                },
+                {
+                    path: 'register/:step?',
+                    name: 'auth.register',
+                    component: () =>
+                        import(
+                            '@/modules/auth/components/auth-register-form.vue'
+                        ),
+                },
+            ],
         },
         {
             path: '/auth',
