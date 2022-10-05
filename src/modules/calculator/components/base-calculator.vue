@@ -2,12 +2,12 @@
     <div class="base-calculator">
         <header class="base-calculator__header">
             <h2 class="base-calculator__heading">
-                Kalkulator wynagrodzenia
+                Calculadora de disparos
             </h2>
             <div class="flex-wrap align-center justify-between">
                 <div class="flex align-center mr-10">
                     <p class="m-0">
-                        Aktualnie wybrany okres rozliczeniowy:
+                        Base selecionada:
                         <strong>{{ monthName }} {{ billingPeriod.year }}</strong>
                     </p>
                     <base-button
@@ -23,22 +23,22 @@
                 </div>
                 <div class="base-calculator__status">
                     <template v-if="status === 'loading'">
-                        Wczytywanie...
+                        Carregando...
                     </template>
                     <template v-else-if="status === 'loaded'">
-                        Wczytano
+                        Carregado
                     </template>
                     <template v-else-if="status === 'nothing-to-load'">
-                        Brak zapisanych danych
+                        Nenhum dado salvo
                     </template>
                     <template v-else-if="status === 'saving'">
-                        Zapisywanie...
+                        Salvando...
                     </template>
                     <template v-else-if="status === 'saved'">
-                        Zapisano
+                        Salvou
                     </template>
                     <template v-else-if="status === 'will-save'">
-                        Zmiany zostaną zapisane
+                        Os dados serão salvos
                     </template>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         name="plus-circle"
                         class="btn__icon"
                     />
-                    <span class="btn__text">Dodaj wydatek</span>
+                    <span class="btn__text">Adicionar mensagem</span>
                 </base-button>
             </calculator-form>
         </div>
