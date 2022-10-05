@@ -72,7 +72,7 @@
                 :value="profit"
                 :theme="profit > 0 ? 'success' : 'danger'"
                 label="Zysk"
-                icon="person"
+                icon="comment"
             />
             <cash-result
                 :value="grossIncome"
