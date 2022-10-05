@@ -66,7 +66,7 @@
                     icon: 'comment'
                 },
                 {
-                    to: '/settings',
+                    to: '/robos',
                     title: 'Robôs',
                     icon: 'robot'
                 }
