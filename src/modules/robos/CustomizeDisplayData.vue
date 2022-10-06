@@ -1,7 +1,7 @@
 <template>
     <EasyDataTable
-                   :headers="headers"
-                   :items="items"
+        :headers="headers"
+        :items="items"
     />
 </template>
 
