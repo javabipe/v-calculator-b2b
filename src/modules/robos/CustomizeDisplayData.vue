@@ -11,7 +11,7 @@
     import type { Header, Item } from 'vue3-easy-data-table';
 
     export default {
-        setup() {
+        data() {
             const headers: Header[] = [
                 { text: 'Name', value: 'name' },
                 { text: 'Height (cm)', value: 'height', sortable: true },
