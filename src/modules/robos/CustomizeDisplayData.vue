@@ -1,6 +1,8 @@
 <template>
-    <EasyDataTable :headers="headers" 
-    :items="items" />
+    <EasyDataTable
+                   :headers="headers"
+                   :items="items"
+    />
 </template>
 
 <script lang="ts">
@@ -17,9 +19,9 @@
             ];
 
             const items: Item[] = [
-                { "name": 'Curry', 'height': 178, 'weight': 77, 'age': 20 },
-                { "name": 'James', 'height': 180, 'weight': 75, 'age': 21 },
-                { "name": 'Jordan', 'height': 181, 'weight': 73, 'age': 22 }
+                { 'name': 'Curry', 'height': 178, 'weight': 77, 'age': 20 },
+                { 'name': 'James', 'height': 180, 'weight': 75, 'age': 21 },
+                { 'name': 'Jordan', 'height': 181, 'weight': 73, 'age': 22 }
             ];
 
             return {
