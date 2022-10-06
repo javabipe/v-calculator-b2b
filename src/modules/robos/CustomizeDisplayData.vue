@@ -1,8 +1,5 @@
 <template>
-  <EasyDataTable
-    :headers="headers"
-    :items="items"
-  />
+  <EasyDataTable :headers="headers" :items="items"/>
 </template>
 
 <script lang="ts">
