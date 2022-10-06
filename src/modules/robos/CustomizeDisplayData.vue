@@ -25,6 +25,7 @@
                 { 'name': 'Jordan', 'height': 181, 'weight': 73, 'age': 22 }
             ];
         },
+            console.log(headers);
     };
-    console.log(headers);
+
 </script>
