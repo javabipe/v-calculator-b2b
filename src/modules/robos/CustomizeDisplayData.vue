@@ -34,3 +34,4 @@
     });
     export default CustomizeDisplayData;
 </script>
+<style lang="scss" src="https://unpkg.com/vue3-easy-data-table/dist/style.css" />
