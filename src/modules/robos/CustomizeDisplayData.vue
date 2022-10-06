@@ -8,10 +8,11 @@
 </template>
 
 <script lang="ts">
+    import { defineComponent } from 'vue';
     import type { Header, Item } from 'vue3-easy-data-table';
 
-    export default {
-        data() {
+    const CustomizeDisplayData = defineComponent({
+        setup() {
             const headers: Header[] = [
                 { text: 'Name', value: 'name' },
                 { text: 'Height (cm)', value: 'height', sortable: true },
@@ -24,8 +25,12 @@
                 { 'name': 'James', 'height': 180, 'weight': 75, 'age': 21 },
                 { 'name': 'Jordan', 'height': 181, 'weight': 73, 'age': 22 }
             ];
-        },
-            console.log(headers);
-    };
 
+            return {
+                headers,
+                items
+            };
+        },
+    });
+    export default CustomizeDisplayData;
 </script>
