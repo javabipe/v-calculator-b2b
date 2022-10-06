@@ -1,8 +1,10 @@
 <template>
-    <EasyDataTable
-        :headers="headers"
-        :items="items"
-    />
+    <div class="view view--centered">
+        <EasyDataTable
+            :headers="headers"
+            :items="items"
+        />
+    </div>
 </template>
 
 <script lang="ts">
