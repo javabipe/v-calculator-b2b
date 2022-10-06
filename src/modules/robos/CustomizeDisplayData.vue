@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-    import { defineComponent } from 'vue';
+    import { defineComponent } from '@vue/composition-api';
     import type { Header, Item } from 'vue3-easy-data-table';
 
     const CustomizeDisplayData = defineComponent({
