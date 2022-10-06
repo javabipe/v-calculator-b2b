@@ -34,4 +34,3 @@
     });
     export default CustomizeDisplayData;
 </script>
-<style lang="scss" src="vue3-easy-data-table/dist/style.css" />
