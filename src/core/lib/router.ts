@@ -16,6 +16,7 @@ export default new Router({
         },
         {
             path: '/robos',
+            name: 'easydatatable',
             component: CustomizeDisplayData,
         },
         {
