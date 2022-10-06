@@ -24,11 +24,7 @@
                 { 'name': 'James', 'height': 180, 'weight': 75, 'age': 21 },
                 { 'name': 'Jordan', 'height': 181, 'weight': 73, 'age': 22 }
             ];
-
-            return {
-                headers,
-                items
-            };
         },
     };
+    console.log(headers);
 </script>
