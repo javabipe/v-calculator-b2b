@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import CalculatorView from '@/modules/calculator/calculator-view.vue';
+import CalculatorView from '@/modules/robos/CustomizeDisplayData.vue';
+
 
 Vue.use(Router);
 
