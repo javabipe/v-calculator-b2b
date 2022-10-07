@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import CalculatorView from '@/modules/calculator/calculator-view.vue';
-import CustomizeDisplayData from '@/modules/robos/CustomizeDisplayData.vue';
+import EasyDataTable from '@/modules/robos/EasyDataTable.vue';
 
 
 Vue.use(Router);
@@ -16,8 +16,8 @@ export default new Router({
         },
         {
             path: '/robos',
-            name: 'easydatatable',
-            component: CustomizeDisplayData,
+            name: 'EasyDataTable',
+            component: EasyDataTable,
         },
         {
             path: '/auth',
